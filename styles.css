@@ -10,6 +10,7 @@
   transform: scale(0);
   transform: translateX(200px);
   animation: 3s ease wspdsp;
+  z-index: 10;
 }
 
 @keyframes wspdsp {
@@ -46,6 +47,7 @@
   width: 45px;
   height: 45px;
   cursor: pointer;
+  z-index: 11;
 }
 
 .wsp-btn:hover {
